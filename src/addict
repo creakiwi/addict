@@ -1,0 +1,27 @@
+#!/bin/sh
+
+splashscreen()
+{
+    echo "             _     _ _      _   "
+    echo "    /\      | |   | (_)    | |  "
+    echo "   /  \   __| | __| |_  ___| |_ "
+    echo "  / /\ \ / _\` |/ _\` | |/ __| __|"
+    echo " / ____ \ (_| | (_| | | (__| |_ "
+    echo "/_/    \_\__,_|\__,_|_|\___|\__|"                                                        
+    echo ""
+}
+
+usage()
+{
+    splashscreen
+    echo "Usage:"
+    echo "\tcommand"
+    echo ""
+    echo "Available commands:"
+    echo "\tinstall"
+}
+
+if [ $# -eq 0 ]
+then
+    usage
+fi
