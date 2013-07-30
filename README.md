@@ -1,4 +1,4 @@
 addict
 ======
 
-A simple and unpretentious software to handle dependencies between bourne shell scripts
+A simple and unpretentious script to handle dependencies between bourne shell scripts
